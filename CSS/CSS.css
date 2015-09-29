@@ -1,0 +1,69 @@
+body {
+	background-color: Black;
+
+}
+
+#backgroundIndex{
+		background-image: url(http://blog.mivia.dk/wp-content/uploads/2013/12/Summoners_rift_season_4_map.jpg);
+	background-size: 100% 720px;
+	background-repeat: no-repeat;
+}
+#BGTheme{
+		background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2012/11/25/22436/a0df04c40df437f6bb08a237b3d22a6d.jpg);
+	background-size: 100% 720px;
+	background-repeat: no-repeat;
+}
+#BGPlot{
+		background-image: url(http://images6.alphacoders.com/298/298686.jpg);
+	background-size: 100% 720px;
+	background-repeat: no-repeat;
+}
+#BGMechanics{
+	background-image: url(http://benbressington.com/wp-content/uploads/2013/11/7-Core-Game-Mechanics-Graphic.jpg);
+	background-size: 100% 720px;
+	background-repeat: no-repeat;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	font-family:Arial;
+	font-style: oblique; /* Tjock text */
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
+	text-align: center;
+	color:red;
+}
+p{
+	font-size: 20px
+}
+
+nav{
+	width: 80%;
+	height: 80px;
+	margin: 10px auto 0px auto;
+}
+
+nav a{
+	color:black;
+}
+
+nav a:hover{ /* Hur det ser ut när man hovrar med musen */
+	color:orange;
+}
+
+#current{ 
+	text-decoration:underline;	
+}
+
+.navLink{
+	position:relative;
+	float:left;
+	width:20%;	
+	height:76px;
+}
+
+.container{
+	position:relative;
+	width: 80%;
+	margin: 150px auto 0px auto; /* toppen höger botten vänster */
+	border: 3px black  ; /* border-width border-color border-style*/
+	background-color:darkred:filter:alpha(opacity=120);opacity:.9;
+}
