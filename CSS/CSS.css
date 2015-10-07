@@ -5,28 +5,28 @@ body {
 
 #backgroundIndex{
 	background-image: url(http://blog.mivia.dk/wp-content/uploads/2013/12/Summoners_rift_season_4_map.jpg);
-	background-size: 100% 720px;
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 }
 #BGTheme{
 	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2012/11/25/22436/a0df04c40df437f6bb08a237b3d22a6d.jpg);
-	background-size: 100% 720px;
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 }
 #BGPlot{
-	background-image: url(http://p1.pichost.me/i/29/1523676.jpg);
-	background-size: 100% 720px;
+	background-image: url(http://thewallpaperhost.com/wp-content/uploads/2014/12/download.jpg);
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 }
 #BGMechanics{
-	background-image: url(http://www.hdwallpapersos.com/wp-content/uploads/2015/03/abstract_hd_wallpaper_1920x1080.png);
-	background-size: 100% 720px;
+	background-image: url(http://www.goodwp.com/images/201306/goodwp.com_29167.jpg);
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 }
 
 #BGChar{
-	background-image: url(http://thewallpaperhost.com/wp-content/uploads/wallpaper-11628192.jpg);
-	background-size: 100% 720px;
+	background-image: url(http://pic1-1.yourswallpaper.com/3d/panda-water_1920x1080.jpg);
+	background-size: 100% 800px;
 	background-repeat: no-repeat;
 }
 
@@ -59,7 +59,7 @@ nav a{
 }
 
 nav a:hover{ /* Hur det ser ut när man hovrar med musen */
-	color:orange;
+	color:blue;
 }
 
 #current{ 
@@ -75,7 +75,7 @@ nav a:hover{ /* Hur det ser ut när man hovrar med musen */
 	float: left;
 	width: 80%;
 	min-width: 300px;
-	margin: 150px auto 0px auto; /* toppen höger botten vänster */
+	margin: 25px auto 0px auto; /* toppen höger botten vänster */
 	border: 3px black  ; /* border-width border-color border-style*/
 	background: rgba(0,0,0,0.4); /*Bakgrundsfärg för container, röd, grön, blå, opacity, */
 	border-radius: 30px; /*Container radius för t.ex. runda hörn */
