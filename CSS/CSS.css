@@ -4,31 +4,37 @@ body {
 }
 
 #backgroundIndex{
-	background-image: url(http://blog.mivia.dk/wp-content/uploads/2013/12/Summoners_rift_season_4_map.jpg);
-	background-size: 100% 800px;
+	background-image: url(index.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGTheme{
-	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2012/11/25/22436/a0df04c40df437f6bb08a237b3d22a6d.jpg);
-	background-size: 100% 800px;
+	background-image: url(S2.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGPlot{
-	background-image: url(http://thewallpaperhost.com/wp-content/uploads/2014/12/download.jpg);
-	background-size: 100% 800px;
+	background-image: url(S3.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGMechanics{
-	background-image: url(http://www.goodwp.com/images/201306/goodwp.com_29167.jpg);
-	background-size: 100% 800px;
+	background-image: url(S4.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 
 #BGChar{
-	background-image: url(http://pic1-1.yourswallpaper.com/3d/panda-water_1920x1080.jpg);
-	background-size: 100% 800px;
+	background-image: url(S5.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
+#BGVID{
+	background-image: url(S6.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+
 
 h1,h2,h3,h4,h5,h6,p{
 	font-family:Arial;
@@ -40,6 +46,9 @@ h1,h2,h3,h4,h5,h6,p{
 }
 p{
 	font-size: 20px
+}
+a{
+	text-decoration: none;
 }
 
 nav{
@@ -64,6 +73,7 @@ nav a:hover{ /* Hur det ser ut när man hovrar med musen */
 
 #current{ 
 	text-decoration:underline;	
+	color:gold;
 }
 
 .navLink{
@@ -76,7 +86,20 @@ nav a:hover{ /* Hur det ser ut när man hovrar med musen */
 	width: 80%;
 	min-width: 300px;
 	margin: 25px auto 0px auto; /* toppen höger botten vänster */
-	border: 3px black  ; /* border-width border-color border-style*/
+	border: 3px black solid; /* border-width border-color border-style*/
 	background: rgba(0,0,0,0.4); /*Bakgrundsfärg för container, röd, grön, blå, opacity, */
 	border-radius: 30px; /*Container radius för t.ex. runda hörn */
 }
+.container2{
+	position:relative;
+	float: left;
+	width: 720px;
+	min-width: 300px;
+	margin: auto auto 0px auto; 
+	border: 15px black solid;
+	background: rgba(0,0,0,0.4);
+	border-radius: 35px;
+}
+
+
+
