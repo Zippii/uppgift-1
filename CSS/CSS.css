@@ -34,6 +34,12 @@ body {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 }
+#Grim{
+	background-image: url(char1.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+
 
 
 h1,h3,h4,h5,h6,p{
@@ -49,6 +55,19 @@ p{
 }
 a{
 	text-decoration: none;
+}
+li{
+	font-family:Arial;
+	font-style: thick;
+	color:gold;
+	text-shadow: 2px 2px black ;
+}
+ul{
+	font-family:Arial;
+	font-style: thick;
+	text-align: left;
+	color:gold;
+	text-shadow: 2px 2px black ;
 }
 
 nav{
