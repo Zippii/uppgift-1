@@ -36,7 +36,7 @@ body {
 }
 
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h3,h4,h5,h6,p{
 	font-family:Arial;
 	font-style: thick; /* Tjock text */
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
@@ -53,8 +53,8 @@ a{
 
 nav{
 	float: right;
-	width: 195px;
-	height: 300px;
+	width: auto;
+	height: auto;
 	margin: 60px 0px 0px 30px;
 	background: rgba(0,0,0,0.4);
 	border: 3px black solid;
@@ -64,11 +64,15 @@ nav{
 }
 
 nav a{
+	text-decoration: none;
 	color:black;
+	text-shadow: 2px 2px 2px black;
+	transition: color .3s ease .0s, font-size 1.5s ease .0s;
 }
 
 nav a:hover{ /* Hur det ser ut när man hovrar med musen */
-	color:blue;
+	color:orange;
+	font-size: 35px;
 }
 
 #current{ 
