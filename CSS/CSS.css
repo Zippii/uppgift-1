@@ -123,6 +123,16 @@ nav a:hover{ /* Hur det ser ut när man hovrar med musen */
 	background: rgba(0,0,0,0.4);
 	border-radius: 35px;
 }
+.container3{
+	position:relative;
+	float: left;
+	width: 375px;
+	height: 304px;
+	background-image: url(http://i3.kym-cdn.com/photos/images/original/000/715/766/21c.gif);
+	border: 15px black solid;
+	border-radius: 20px;
+}
+
 
 
 
