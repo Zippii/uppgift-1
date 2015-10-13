@@ -1,82 +1,159 @@
 body {
-	background-color: Black;
+	background-color: Black; /*Bakgrundsfärg för sidan ifall det inte finns något annat*/
 
 }
 
 #backgroundIndex{
-	background-image: url(http://blog.mivia.dk/wp-content/uploads/2013/12/Summoners_rift_season_4_map.jpg);
-	background-size: 100% 800px;
+	background-image: url(index.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGTheme{
-	background-image: url(http://www.wallpaperup.com/uploads/wallpapers/2012/11/25/22436/a0df04c40df437f6bb08a237b3d22a6d.jpg);
-	background-size: 100% 800px;
+	background-image: url(S2.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGPlot{
-	background-image: url(http://thewallpaperhost.com/wp-content/uploads/2014/12/download.jpg);
-	background-size: 100% 800px;
+	background-image: url(S3.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 #BGMechanics{
-	background-image: url(http://www.goodwp.com/images/201306/goodwp.com_29167.jpg);
-	background-size: 100% 800px;
+	background-image: url(S4.jpg);
 	background-repeat: no-repeat;
 }
 
 #BGChar{
-	background-image: url(http://pic1-1.yourswallpaper.com/3d/panda-water_1920x1080.jpg);
-	background-size: 100% 800px;
+	background-image: url(S5.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#BGVID{
+	background-image: url(confirmed.gif);
+}
+#Grim{
+	background-image: url(char1.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#Blaze{
+	background-image: url(char2.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#Crystina{
+	background-image: url(char3.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#Drunkie{
+	background-image: url(char4.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#Barb{
+	background-image: url(char5.jpg);
+	background-size: 100% 1080px;
+	background-repeat: no-repeat;
+}
+#Nisanna{
+	background-image: url(char6.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+/*Bakgrundsbilder för enskild body/sida*/
+
+
+h1,h3,h4,h5,h6,p{
 	font-family:Arial;
 	font-style: thick; /* Tjock text */
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.3); /* horizontal-shadow vertical-shadow blur color(red, green, blue, opacity) */
-	text-align: center;
-	color:red;
-	text-shadow: 2px 2px black ;
+	text-align: center; 
+	color:red; /*Textens färg*/
+	text-shadow: 2px 2px black ; /*Skugga på text*/
 }
 p{
-	font-size: 20px
+	font-size: 20px; /*Brödtextens storlek*/
+}
+a{
+	text-decoration: none; /*T.ex. Ingen underline på länkar*/
+}
+li{ /*Bestämmer attributer för li-taggens text*/
+	font-family:Arial;
+	font-style: thick;
+	color:gold;
+	text-shadow: 2px 2px black ;
+}
+ul{ /*Bestämmer text attributer för ul-taggen*/
+	font-family:Arial;
+	font-style: thick;
+	text-align: left;
+	color:gold;
+	text-shadow: 2px 2px black ;
 }
 
-nav{
+nav{ /*Bestämmer navigationsmenyns attributer, storlek, border, etc..*/
 	float: right;
-	width: 195px;
-	height: 300px;
+	width: auto;
+	height: auto;
 	margin: 60px 0px 0px 30px;
 	background: rgba(0,0,0,0.4);
 	border: 3px black solid;
 	border-radius: 30px;
-	
-
 }
 
-nav a{
+nav a{ /*Bestämmer textens attributer inom navigationsmenyn*/
+	text-decoration: none;
 	color:black;
+	text-shadow: 2px 2px 2px black;
+	transition: color .3s ease .0s, font-size 1.5s ease .0s;
 }
 
-nav a:hover{ /* Hur det ser ut när man hovrar med musen */
-	color:blue;
+nav a:hover{ /* Hur det ser ut när man hovrar med muspekare */
+	color:silver;
+	font-size: 30px;
 }
 
-#current{ 
+#current{ /*Visar vilken sida man är på*/
 	text-decoration:underline;	
+	color:gold;
 }
 
 .navLink{
 	position:relative;
 	}
 
-.container{
+.container{ /*Bestämmer en containers innehåll, storlek, border, etc.*/
 	position:relative;
 	float: left;
-	width: 80%;
-	min-width: 300px;
+	width: 80%; /*storlek i sidled*/
+	min-width: 300px; /*minsta storlek i sidled*/
 	margin: 25px auto 0px auto; /* toppen höger botten vänster */
-	border: 3px black  ; /* border-width border-color border-style*/
+	border: 3px black solid; /* border-width border-color border-style*/
 	background: rgba(0,0,0,0.4); /*Bakgrundsfärg för container, röd, grön, blå, opacity, */
 	border-radius: 30px; /*Container radius för t.ex. runda hörn */
 }
+.container2{
+	position:relative;
+	float: left;
+	width: 720px;
+	min-width: 300px;
+	margin: auto auto 0px auto; 
+	border: 15px black solid;
+	background: rgba(0,0,0,0.4);
+	border-radius: 35px;
+}a
+.container3{
+	position:relative;
+	float: left;
+	width: 375px;
+	height: 304px;
+	background-image: url(http://i3.kym-cdn.com/photos/images/original/000/715/766/21c.gif); /*bakgrundsbild/gif för just denna container*/
+	border: 10px black solid;
+	border-radius: 25px;
+}
+
+
+
+
