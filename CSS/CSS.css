@@ -20,6 +20,7 @@ body {
 }
 #BGMechanics{
 	background-image: url(S4.jpg);
+	background-size: 100% 1080px;
 	background-repeat: no-repeat;
 }
 
@@ -143,17 +144,21 @@ nav a:hover{ /* Hur det ser ut när man hovrar med muspekare */
 	border: 15px black solid;
 	background: rgba(0,0,0,0.4);
 	border-radius: 35px;
-}a
-.container3{
-	position:relative;
-	float: left;
-	width: 375px;
-	height: 304px;
-	background-image: url(http://i3.kym-cdn.com/photos/images/original/000/715/766/21c.gif); /*bakgrundsbild/gif för just denna container*/
-	border: 10px black solid;
-	border-radius: 25px;
 }
-
-
+.soundbutton{
+	position: relative;
+	float: right;
+	width: 100px;
+	height: 100px;
+	border: 5px black solid;
+	border-radius: 50px;
+}
+.easteregg{
+	position: relative;
+	float: left;
+	width: 256px;
+	height: 256px;
+	background-image: url(EasterEgg.png)
+}
 
 
