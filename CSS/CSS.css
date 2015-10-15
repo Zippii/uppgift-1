@@ -32,6 +32,9 @@ body {
 #BGVID{
 	background-image: url(confirmed.gif);
 }
+#BGVID2{
+	background-image: url(Loominaty.gif);
+}
 #Grim{
 	background-image: url(char1.jpg);
 	background-size: 100% 1080px;
@@ -160,5 +163,6 @@ nav a:hover{ /* Hur det ser ut när man hovrar med muspekare */
 	height: 256px;
 	background-image: url(EasterEgg.png)
 }
+
 
 
